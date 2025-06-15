@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boat Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Boat Manager</h1>
+    </header>
+
+    <main>
+        <section class="list-section">
+            <h2>Bookings</h2>
+            <ul id="bookings-list"></ul>
+            <div class="add-item">
+                <input type="text" id="bookings-input" placeholder="Add new booking">
+                <button onclick="addItem('bookings')">Add Booking</button>
+            </div>
+        </section>
+
+        <section class="list-section">
+            <h2>Todo</h2>
+            <ul id="todo-list"></ul>
+            <div class="add-item">
+                <input type="text" id="todo-input" placeholder="Add new todo">
+                <button onclick="addItem('todo')">Add Todo</button>
+            </div>
+        </section>
+
+        <section class="list-section">
+            <h2>Bills</h2>
+            <ul id="bills-list"></ul>
+            <div class="add-item">
+                <input type="text" id="bills-input" placeholder="Add new bill">
+                <button onclick="addItem('bills')">Add Bill</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
