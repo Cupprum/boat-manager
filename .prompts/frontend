@@ -1,0 +1,14 @@
+Create an HTML website. Its going to be only using plain HTLM, plain javascrip and simple css.
+
+Lets start with creating the default website.
+
+Its name should be `boat-manager`.
+
+Its should have ocean/sea blue background.
+
+The website should have a header `boat-manager` and afterwards three sections.
+Each section is going to consist of name, which is either `bookings`, `todo`, or `bills`.
+Each section should have a name and a list, which contains strings.
+Each section should have a button to add a new item to the list.
+Each line in the list should have a delete button to remove the item from the list.
+Sections should be in a vertical list.
